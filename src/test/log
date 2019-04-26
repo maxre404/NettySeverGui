@@ -1,0 +1,17 @@
+ServiceReminderRecord{msgId='98f62d456b27a4670348f2d174ef49145682', operate='SEND', templateType='S', templateId='WALLET-FWC@remindMultiLine', msgType='NOTICE', title='支付宝',
+content='税国强通过支付宝向你的银行卡（尾号0515）转账0.01元已到账，如有疑问请咨询银行确认。', icon='https://zos.alipayobjects.com/rmsportal/SdJCSvgNRubKgXw.png',
+link='alipays://platformapi/startapp?appId=09999988&tagid=TRANSFERPROD_TO_CARD_SUCCESS_PUSH', linkName='我也要转账', templateCode='TRANSFERPROD_TO_CARD_SUCCESS_PUSH',
+gmtCreate=1547447366568, gmtValid=1548052166558, homePageTitle='银行卡收款通知', statusFlag='null', status='', businessId='null', expireLink='', templateName='收款提醒',
+menus='null', extraInfo='{"assistMsg1":"税国强通过支付宝向你的银行卡（尾号0515）转账0.01元已到账，\b如有疑问请咨询银行确认。","assistMsg2":"",
+"bizMonitor":"{\"expireLink\":\"\",\"gmtCreate\":1547447366568,\"gmtValid\":1548052166558,\"hiddenSum\":\"0\",\"homePageTitle\":\"银行卡收款通知\",
+\"icon\":\"https://zos.alipayobjects.com/rmsportal/SdJCSvgNRubKgXw.png\",\"id\":\"98f62d456b27a4670348f2d174ef49145682TRANSFERPROD_TO_CARD_SUCCESS_PUSH2088802005017821\",
+\"link\":\"alipays://platformapi/startapp?appId=09999988&tagid=TRANSFERPROD_TO_CARD_SUCCESS_PUSH\",\"linkName\":\"我也要转账\",\"msgId\":\"98f62d456b27a4670348f2d174ef49145682\",
+\"msgType\":\"NOTICE\",\"operate\":\"SEND\",\"status\":\"\",\"templateCode\":\"TRANSFERPROD_TO_CARD_SUCCESS_PUSH\",\"templateId\":\"WALLET-FWC@remindMultiLine\",
+\"templateName\":\"收款提醒\",\"templateType\":\"S\",\"title\":\"支付宝\",\"userId\":\"2088802005017821\"}","content":"银行卡收款通知",
+"expireLink":"https://render.alipay.com/p/f/fd-jblxfp45/pages/home/index.html","gmtValid":1548052166558,"imageUrl":"","linkName":"我也要转账",
+"sceneExt":{"forwardLifePublicMsg":"Y","sceneExtInfo":"{\"vipMsgNoteType\":\"dot\",\"isProhibited\":false,\"vip\":\"0\"}",
+"sceneIcon":"http://alipay.dl.django.t.taobao.com/rest/1.0/image?fileIds=QiUSWiFeQKu3_Unw4PLhowAAACMAAQQD&zoom=original","sceneId":"2013121700002381",
+"sceneName":"支付宝服务中心","sceneTemplateId":"birdNest://WALLET-FWC@lifeTemplateMultiLine","sceneTitle
+2019-01-14 14:29:27.538 18157-22654/com.eg.android.AlipayGphone I/AndHook: ":"进入生活号","sceneType":"lifePublic",
+"sceneUrl":"alipays://platformapi/startapp?appId=20000042&publicBizType=LIFE_APP&sourceId=notifications&publicId=2013121700002381"},
+"templateId":"WALLET-FWC@remindMultiLine"}', msgState='null', userId='2088802005017821'}
