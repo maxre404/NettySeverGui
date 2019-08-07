@@ -19,5 +19,7 @@
     <orderEntry type="library" name="io.netty:netty-all:5.0.0.Alpha2" level="project" />
     <orderEntry type="library" name="com.google.code.gson:gson:2.8.5" level="project" />
     <orderEntry type="library" name="jzlib" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" name="nanohttpd-2.3.1-SNAPSHOT" level="project" />
   </component>
 </module>
