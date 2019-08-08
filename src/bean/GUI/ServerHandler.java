@@ -18,7 +18,31 @@ public class ServerHandler extends ChannelHandlerAdapter {
 		super.channelActive(ctx);
 		String uuid = ctx.channel().id().asLongText();
 		Clients.put(uuid,ctx);
+		Map<String, SMessage> map_message = App.getApp().getMap_message();
+		for (String key:map_message.keySet()) {
+			SMessage sMessage = map_message.get(key);
+			TcpParam tcp=new TcpParam(1);
+			tcp.write(uuid);
+			sMessage.messageReceived(1,tcp.getParam2());
+		}
+		System.out.println("有客户端建立连接:"+uuid);
 	}
+
+	@Override
+	public void channelInactive(ChannelHandlerContext ctx) throws Exception {
+		super.channelInactive(ctx);
+		String uuid = ctx.channel().id().asLongText();
+		Clients.remove(uuid);
+		System.out.println("掉线了:"+uuid);
+		Map<String, SMessage> map_message = App.getApp().getMap_message();
+		for (String key:map_message.keySet()) {
+			SMessage sMessage = map_message.get(key);
+			TcpParam tcp=new TcpParam(0);
+			tcp.write(uuid);
+			sMessage.messageReceived(0,tcp.getParam2());
+		}
+	}
+
 	Gson gson;
 	@Override
 	public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
@@ -88,7 +112,15 @@ public class ServerHandler extends ChannelHandlerAdapter {
 				case 202:
 
 					break;
+				case 206:
+					break;
 			}
+			Map<String, SMessage> map_message = App.getApp().getMap_message();
+			for (String key:map_message.keySet()) {
+				SMessage sMessage = map_message.get(key);
+				sMessage.messageReceived(cmd,reciveData);
+			}
+
 //                Intent arg0 = new Intent(String.valueOf(cmd));
 //                arg0.putExtra("packge", com.tencent.charge.BuildConfig.FLAVOR);
 //                arg0.putExtra("data", reciveData);
