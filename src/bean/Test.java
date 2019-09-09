@@ -1,15 +1,9 @@
 package bean;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 import java.util.regex.Pattern;
 
 public class Test {
@@ -31,24 +25,12 @@ public class Test {
             "linkName='', templateCode='00059_00094_zfzs001', gmtCreate=1544335902743, gmtValid=1546927902731, homePageTitle='支付助手: ￥0.01 二维码收款到账通知', statusFlag='null',";
 
     public static void main(String[] args) {
-        Person.Students origen= Person.stu;
-        System.out.println(origen.toString());
-        Person mp=new Person();
-        Person.Students students = new Person.Students();
-        students.setAge(12);
-        students.setName("jack");
-        mp.setStu(students);
-        Person.Students stu=new Person.Students();
-        stu.setName("hellowrod");
-        stu.setAge(19);
-        new Person().setStu(stu);
-        Person.Students test= Person.stu;
-        System.out.println(test.toString());
+        teststr();
 
-//        String textCenter = getTextCenter(str, "\"mainAmount\":\"", "\"");
-//        String time = getTextCenter(str, "\"gmtCreate\":", ",");
-//        System.out.println("截取的金额:"+textCenter+"获取的时间:"+time);
 
+    }
+    public static void teststr(String...str){
+        System.out.println(str[0]);
 
     }
     static class MyThread extends Thread{
