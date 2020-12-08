@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TestNetty:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5f44d1d-e766-448a-9710-e0c8b561db10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TestNetty_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/nanohttpd_2_3_1_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/BaseNetTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/Loging.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/META-INF/TestNetty.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/ServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/TcpParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/AddressMatchType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/BankType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/FlmSmsHook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/FuShuException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/BaseNetTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/HttpServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/HttpServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/HttpServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/Loging.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/MyProtocolBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/MyProtocolDecoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/NettyServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/NettyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/NumOnlyDocument.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/SMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/ServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/TcpParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/TcpRespond.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/UrlUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/WebServer$BankInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/WebServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/PayType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/Person$Students.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/RSAUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/Test$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/TestObj.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/TestRSA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/TestVaryageKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/heartJump.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/abc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_deposit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_gift.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_header_flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_recently1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_recently2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_recently3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_recently4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_sister.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_withdrawal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_game_race.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/imgsuona.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_assets_focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_assets_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_index_focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_index_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_mine_focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_mine_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_more_focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_more_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/main.dart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/websocket/ChatHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/websocket/HeartBeatHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/websocket/WebSocketInitialzer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/websocket/WebSocketServer$SingletionWSServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/websocket/WebSocketServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/sqlite/test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/sqlite/testadd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/test/TestKwebKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/test/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/test/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/AddressMatchType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/BankType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/FlmSmsHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/FuShuException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/GUI/MyProtocolBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/GUI/MyProtocolDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/GUI/UrlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/PayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/TestVaryage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/html/abc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/websocket/ChatHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/websocket/HeartBeatHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/websocket/WebSocketInitialzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/websocket/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/GUI/BaseNetTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/BaseNetTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/GUI/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/GUI/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/GUI/TcpRespond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/TcpRespond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/GUI/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/GUI/testApi.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/testApi.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/GUI/testApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/testApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/NettySeverGui$testApi.ic" NAME="testApi Coverage Results" MODIFIED="1572925103592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bean.websocket.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bean/GUI/testApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bean/GUI/NettyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding>
+                <element signature="e#1437#1958#0" expanded="true" />
+                <element signature="e#1957#1958#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/DelimiterBasedFrameDecoder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+              <folding>
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bean/GUI/testApi.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bean/GUI/WebServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="105" column="72" lean-forward="true" selection-start-line="105" selection-start-column="72" selection-end-line="105" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bean/GUI/ServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bean/GUI/BaseNetTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7675">
+              <caret line="314" selection-start-line="314" selection-end-line="314" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bean/GUI/TcpRespond.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1000">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Kotlin File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>兴业银行</find>
+      <find>onReceived</find>
+      <find>农业</find>
+      <find>205</find>
+      <find>招商</find>
+      <find>（</find>
+      <find>CIB</find>
+      <find>cib</find>
+      <find>95555</find>
+      <find>pos收入</find>
+      <find>BOC</find>
+      <find>中国银行</find>
+      <find>getPattern</find>
+      <find>controller</find>
+      <find>responseText</find>
+      <find>hello word</find>
+      <find>responseRootPage</find>
+      <find>hello</find>
+      <find>url</find>
+      <find>decoder</find>
+      <find>测试哦 嘿嘿</find>
+      <find>收到数据了</find>
+      <find>messageReceived</find>
+      <find>%</find>
+      <find>获取付款s数据</find>
+      <find>获取付款</find>
+      <find>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48cm9vdCB4bWxucz0ibmFtZXNwYWNlX3N0cmluZyI+PE1zZ0hlYWRlcj48U25kRHQ+MjAxOS0xMS0wN1QxNTowMzoxMzwvU25kRHQ+PE1zZ1RwPmVwY2MuMjQyLjAwMS4wMTwvTXNnVHA+PElzc3JJZD5HNDAwMDMxMTAwMDAxODwvSXNzcklkPjxEcmN0bj4yMTwvRHJjdG4+PFNpZ25TTj40MDA5NzI1NDA4PC9TaWduU04+PE5jcnB0blNOPjQwMDk4MzMzNDg8L05jcnB0blNOPjxEZ3RsRW52bHA+TUlHTUFpQlo0ZTYyb1o0OVd3TWVUbUJwT1lCMVFnVXc5OGYwSDQ4SzRmYXdrbTU2UGdJaEFMbVRWS1RVWUxnblpNVW1mNUp5SXdvRU1BanYvOEg0NEwxdC9UVmRLOHBEQkNCWHQ1WVkxdHpaekpvQTR0Nys5NksveWQ0T2lJK0JNSTJ1V045ZE1XZmFqZ1FqNWJZYjBWSWdQcVZpZVkwVjFYajhvdGtkZ0lBbEc2bTB5ekVIMEtkaEs5NHJ5enc9PC9EZ3RsRW52bHA+PC9Nc2dIZWFkZXI+PE1zZ0JvZHk+PFN5c1J0bkluZj48U3lzUnRuQ2Q+MDAwMDAwMDA8L1N5c1J0bkNkPjxTeXNSdG5EZXNjPjAwMDAwMDAwPC9TeXNSdG5EZXNjPjxTeXNSdG5UbT4yMDE5LTExLTA3VDE1OjAzOjEzPC9TeXNSdG5UbT48L1N5c1J0bkluZj48Qml6SW5mPjxUcnhDdGd5PjAxMTI8L1RyeEN0Z3k+PFRyeElkPjIwMTkxMTA3MTI5NTUyNzM1NzAyODYyMjAyMDE2MDg8L1RyeElkPjxUcnhBbXQ+Q05ZMjAuMDA8L1RyeEFtdD48VHJ4U3RhdHVzPjAyPC9UcnhTdGF0dXM+PEJpelN0c0NkPjAwMDAwMDAwPC9CaXpTdHNDZD48Qml6U3RzRGVzYz7miJDlip88L0JpelN0c0Rlc2M+PFJkcmN0VXJsPmh0dHBzOi8vYjJjLmljYmMuY29tLmNuL3NlcnZsZXQvSUNCQ0VQQ0NFQml6U2VydmxldDwvUmRyY3RVcmw+PC9CaXpJbmY+PFNlYz5DMGxkRWNERDZLMUw3MytRSVMxblBwQVhGcThka1pkNng4c015MGdwRUJ2OFQvdXdoSmJPRG1ka2tZMi9TNUhMOWRobVhJMEJnSyszTjhkVzdwNU10Vzc0alZ0Y25vQkkrM25nM01XRlU0a0h1VFRnaDBnd2RXd29kL2VyUll3Q1pVMmVQclFoZit2SVRPSjVDRGppSk16ekZvODZGbElyVlU1TUtHZERmc1JRdVc0eERxdTNyL1dQTFJ5SkZlUkUwTERzcWhYOXMwL1dWVmxIWE9PTThCb2lBUmhFd2Uyd1pJT3ZtYlVXRis3WU4wVE52UitTeG1NcnViekdHVjhITmNRZ3hiVUlwbXhkczBaSVQxZThJU1RBTHY3ZHlaS3JhTW1kQ01BZEZTcFY0R1c2UDNEQy9HRndiSE1pQW9leURQOXRqbnE1K3hmYXpTOGtIelpMVzRYbHJWQXhET1RiQkgxdmxSWnM0VjFqMlcyVkMyZThmNXljczZJb3Z0ejJRRVlxWmh3TjQzZWdraDZyemk4a0c5cEY5RGVoVTFub2hjVXV5Nk5wS0t0MGVOcmxMTVBIajdVQ1k1WnFoK3JtNEZXL2xDQWdDL053anN2MlFTS0JENkcvUXB0aXBhdFNSTCs2UXh0d25hV3haWGVYeVpvNE5wWlBCQjRnOVV4L2FkSW9Ha0lqMmpESWRJT01TdkpkaFloNkZzUDFGZGV0N1ZCbUhlelZmeGJFdzZ0ekUwYTFRTWh6NTJTT25sVmRPTEx4SzQ1bzJmdVU0S1B2ZmxOS2lrMGxFVThBdm9UaW9tOENYeFByV2toN2VTTzZCeThpd0tqV0J1YUZBMHFMc0FmbXo0b0RoRlJySDZCRU5UTjRBY0U2RmcxZW9hc1RxbS8zOGhVUUxTblJaeEp1RWsyVzRjelJxaWZrQWkwMHd3alBjRHdvc3lRbGs0bGZ3aVpSWkQxbm1MeDRjR2QwazN0bU4vMGxuVi9oU3dZek5XNTczY1N4aGhFSjZlbkpWeUlFZktIUjVBSHh2L3JUU0IwL1E5eU5NOE5kTXNhUWI0M1kzSEZqb1EvbTVad0lzNGkrSFE1UUJ2ejlkaERDbVZ1eW1QZzVkNFhJQ3ZBOUVCNjNnZ0VqRVNWTE9iTitIa2YxZ0pWNTQyMjF3eDlOLzZ4dXBIa1V3bmNPZkRXMGJGbTAyUldVZmYyK1ZaWnlZZmtvZTRZTUNBWDQ3YThzeWppWWVjQUxmMjh6ZUxUZHlmeG5qTEJQM1c2QnEySXFvOVhMLzYzaDVaUkFGaWNYeWc4OUFYSWh2R2hMck9MTU5FREN4RUJYZ1IreWFXT3JZZ3I3d2h1TXh2VGFvZGxKUFh3S2kxNjlOdzJOb2Q1d1lMNk13L05VcldSUzNxTTdwaDFXVFI4bnRWNnpBMXhQc1hsakhLZ3AySFYyekFhQjhJLzExUFdDalNUc0NEejJOdmdrNHhqWjhYNXd6eXp3VmIrYWdwcjROWE5Eb2RpUmxHdk8xVFIwVElQazNYdWZXK0t3UUx6UnVQb1dKNzU1Q1pRd2JxVDZZbDlDeGpOb2lvQjhpUUZ1cmxRU2dzd2ErSGJLbHdrb1lpc0d4TzdQbTRrN2J1RFp2NUxNTGkydTlucDAyanMrdkV5eUp4dlp3eGFaVFpOcDZMYTNka0ZJU0RtU3gvLzNFbS9BQXpWSzZ3b3A2bFU1SHJveTFNOXl6blFscWlKUEJaS3Bpa0Q4TG50OEJxckVuS2RqeXZQVi9YN29tdkN2TXQvaDFaK2lXTnB1dTd6Zzg2TlV5b2JnbmxtVzBIbXlRY0JidGR1dUlaSDFjaXE0ak1DcjFqZzlEb3dCK2NKSE5PSzVMeFZ6eS84NzN6QzIzRWJ6OXEzcU1QOVpLMi81QW1uRm94ZFREeDhrdzhnOThRN0txMEREVlpxMFNEVUtTYUoxdGptUktESkJ3bSsyY0o4K01BUzI0WXdtTS9xOEE0QTAyWnEwRFlJaCtEK1BXdUU1c3BGL1Vid3FzTzdLOEYzMWRHWEN2QXJHSWNtenJ4aURmTStVWGZ3RFJwczUzb0VDSkVIdzk3S3IzQ1plOStESWliZVgxUWtOdkZ3SkZWR0VLTXhSOXdTeWJzK0JQd0U4em5ncTRlM1AydlB5Q2xiSVhYR2FiaGVKTm1ER0JSNHdLdVdUaExER2pHVTIwekZ2ZmM5UXpHSVFGS1J3VHpjVGJXSlk4OWx0cWc9PTwvU2VjPjwvTXNnQm9keT48L3Jvb3Q+DQp7UzpiMEZwY0VKL1JBWDZaUDY4aUtpV0loK2dYSjl2RG1mdEhJNDkzQ1c0di9ORFpJR1NjTFdLcUZtcDhod0Noc242TTRPNm1QSXAra1lVbTFSanVhd2dEak05U3lkT2ZKNzF4a2ZxTmZUT0NIKzJ4YmN0VjNta1F0UDJlazZqaDhjb3I2Sy9iK2JTcXFnWS90bmswWEhPY09DT3dDRGxyc09rTnkzU243OHF4NU40WkNiYUhHVlBEWWQ0SzdpdzZYTGw1bExYKzlac3l0TzVLd29aWktqQW4vQWpOWmtwaGJCa2JBN2tZamhPTEJMYVBtdkUzZjFHUkVDYitlV1V0RTdCNUdkUkRWYnR6VWZLWUg0MVV5WGlXQlRGYXhBVW9CQXBZMlZ1R2JnVkZ1blpFTnJlUFFxSmhnb0ltdUZuRnRVUU0xSWlJZ0MrR1NxMDVSVDd0ME5yclE9PX0=</find>
+      <find>ise</find>
+      <find>生成订单</find>
+      <find>goBank</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/bean/GUI/APITest.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/APITest.form" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/ApiForm.java" />
+        <option value="$PROJECT_DIR$/src/test/test.java" />
+        <option value="$PROJECT_DIR$/src/sqlite/test1.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e4193cff-1306-4f7c-abbe-803b223dc93e/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/sqlite/testadd.html" />
+        <option value="$PROJECT_DIR$/src/test.html" />
+        <option value="$USER_HOME$/Desktop/bank.txt" />
+        <option value="$USER_HOME$/Desktop/bank.html" />
+        <option value="$PROJECT_DIR$/src/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/TestKweb.kt" />
+        <option value="$PROJECT_DIR$/src/WebServer.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/index.html" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/HttpServer.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/HttpServerHandler.java" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/NumOnlyDocument.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/SMessage.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/App.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/TcpRespond.java" />
+        <option value="$PROJECT_DIR$/src/bean/testObj.java" />
+        <option value="$PROJECT_DIR$/src/bean/TestObj.java" />
+        <option value="$PROJECT_DIR$/src/bean/BankType.java" />
+        <option value="$PROJECT_DIR$/src/bean/PayType.java" />
+        <option value="$PROJECT_DIR$/src/bean/FlmSmsHook.java" />
+        <option value="$PROJECT_DIR$/src/bean/AddressMatchType.java" />
+        <option value="$PROJECT_DIR$/src/bean/html/test.html" />
+        <option value="$PROJECT_DIR$/src/bean/html/abc.txt" />
+        <option value="$PROJECT_DIR$/src/bean/TestVaryage.kt" />
+        <option value="$PROJECT_DIR$/src/test/log" />
+        <option value="$PROJECT_DIR$/src/bean/FuShuException.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/testApi.form" />
+        <option value="$PROJECT_DIR$/src/bean/Test.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/WebSocketServer.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/WebSocketInitialzer.java" />
+        <option value="$PROJECT_DIR$/src/bean/websocket/WebSocketInitialzer.java" />
+        <option value="$PROJECT_DIR$/src/bean/websocket/ChatHandler.java" />
+        <option value="$PROJECT_DIR$/src/bean/websocket/HeartBeatHandler.java" />
+        <option value="$PROJECT_DIR$/src/bean/websocket/WebSocketServer.java" />
+        <option value="D:/wamp/www/test.html" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/MyProtocolBean.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/MyProtocolDecoder.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/BaseNetTool.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/EBank.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/NettyServer.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/testApi.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/UrlUtil.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/WebServer.java" />
+        <option value="$PROJECT_DIR$/src/bean/GUI/ServerHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="283" />
+    <option name="y" value="24" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectId" id="1lJIYZloLwXT04Aj2dy0Js6ZM7B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NettySeverGui" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TestNetty" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NettySeverGui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NettySeverGui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NettySeverGui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NettySeverGui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NettySeverGui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NettySeverGui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NettySeverGui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NettySeverGui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NettySeverGui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NettySeverGui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="testApi" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="NettySeverGui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="NettySeverGui" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TestNetty" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="NettySeverGui" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TestNetty" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="NettySeverGui" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TestNetty" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="bean" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="NettySeverGui" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TestNetty" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="bean" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="GUI" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/lib" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="nettysevergui" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574873402254" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27586207" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bean.websocket" />
+      <recent name="bean.GUI" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaDemo\NettySeverGui" />
+      <recent name="D:\javaDemo\NettySeverGui\src" />
+      <recent name="D:\javaDemo\NettySeverGui\src\bean\html" />
+      <recent name="D:\javaDemo\NettySeverGui\src\bean\GUI" />
+      <recent name="D:\javaDemo\NettySeverGui\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bean.GUI" />
+      <recent name="bean" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaDemo\NettySeverGui\src\bean\html" />
+      <recent name="D:\javaDemo\springboot\TestNetty\src\bean\GUI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.testApi">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TestNetty" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bean.Test" />
+      <module name="TestNetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRSA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bean.TestRSA" />
+      <module name="TestNetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrlUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bean.GUI.UrlUtil" />
+      <module name="TestNetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean.GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bean.GUI.testApi" />
+      <module name="TestNetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean.websocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.testApi" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestRSA" />
+      <item itemvalue="Application.UrlUtil" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.testApi" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.UrlUtil" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestRSA" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5f44d1d-e766-448a-9710-e0c8b561db10" name="Default Changelist" comment="" />
+      <created>1540199534212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540199534212</updated>
+      <workItem from="1540199538018" duration="3874000" />
+      <workItem from="1540205006155" duration="185000" />
+      <workItem from="1540205243408" duration="640000" />
+      <workItem from="1540208232160" duration="9873000" />
+      <workItem from="1540292527168" duration="1578000" />
+      <workItem from="1540346095882" duration="1038000" />
+      <workItem from="1540377496521" duration="513000" />
+      <workItem from="1540538568016" duration="2028000" />
+      <workItem from="1540605222175" duration="2413000" />
+      <workItem from="1540650629333" duration="653000" />
+      <workItem from="1540702913508" duration="4158000" />
+      <workItem from="1541039743636" duration="5663000" />
+      <workItem from="1541419846027" duration="1161000" />
+      <workItem from="1542184403413" duration="636000" />
+      <workItem from="1542449140379" duration="586000" />
+      <workItem from="1542856285018" duration="38000" />
+      <workItem from="1543202150255" duration="718000" />
+      <workItem from="1543310888466" duration="893000" />
+      <workItem from="1543401248746" duration="408000" />
+      <workItem from="1543406644785" duration="1387000" />
+      <workItem from="1543471350681" duration="2470000" />
+      <workItem from="1543482814483" duration="608000" />
+      <workItem from="1544284768497" duration="1350000" />
+      <workItem from="1544768617432" duration="696000" />
+      <workItem from="1544777199095" duration="1225000" />
+      <workItem from="1544858891857" duration="1099000" />
+      <workItem from="1544878321048" duration="224000" />
+      <workItem from="1545202096759" duration="19000" />
+      <workItem from="1547013905617" duration="1776000" />
+      <workItem from="1547015714889" duration="1763000" />
+      <workItem from="1547018240236" duration="1695000" />
+      <workItem from="1547086299884" duration="1514000" />
+      <workItem from="1547090455519" duration="607000" />
+      <workItem from="1547093424125" duration="942000" />
+      <workItem from="1547095273455" duration="1305000" />
+      <workItem from="1547097101481" duration="1825000" />
+      <workItem from="1547099273929" duration="10711000" />
+      <workItem from="1547174197436" duration="12565000" />
+      <workItem from="1547256190409" duration="7824000" />
+      <workItem from="1547284085599" duration="4318000" />
+      <workItem from="1547447429818" duration="1504000" />
+      <workItem from="1547618850239" duration="256000" />
+      <workItem from="1548156950670" duration="4420000" />
+      <workItem from="1548304850542" duration="363000" />
+      <workItem from="1552310123142" duration="2713000" />
+      <workItem from="1552392909426" duration="1934000" />
+      <workItem from="1552455096269" duration="113000" />
+      <workItem from="1552648856925" duration="283000" />
+      <workItem from="1552831957274" duration="1845000" />
+      <workItem from="1552976819600" duration="618000" />
+      <workItem from="1554364159961" duration="956000" />
+      <workItem from="1554365140736" duration="1227000" />
+      <workItem from="1554435249869" duration="622000" />
+      <workItem from="1554549624754" duration="1081000" />
+      <workItem from="1554550754601" duration="1412000" />
+      <workItem from="1554636919892" duration="2100000" />
+      <workItem from="1554893502419" duration="659000" />
+      <workItem from="1556006530524" duration="705000" />
+      <workItem from="1556007319632" duration="17000" />
+      <workItem from="1556008118307" duration="198000" />
+      <workItem from="1556246251386" duration="96000" />
+      <workItem from="1556362643719" duration="4909000" />
+      <workItem from="1556443797897" duration="1408000" />
+      <workItem from="1556526076917" duration="597000" />
+      <workItem from="1556536119363" duration="15000" />
+      <workItem from="1558012820719" duration="2521000" />
+      <workItem from="1558151272669" duration="608000" />
+      <workItem from="1558162802735" duration="1832000" />
+      <workItem from="1558188732651" duration="629000" />
+      <workItem from="1559731643432" duration="70000" />
+      <workItem from="1559731732020" duration="1830000" />
+      <workItem from="1559786992312" duration="594000" />
+      <workItem from="1562295834431" duration="602000" />
+      <workItem from="1562311712768" duration="634000" />
+      <workItem from="1562314141159" duration="836000" />
+      <workItem from="1562401326025" duration="599000" />
+      <workItem from="1562413460569" duration="46000" />
+      <workItem from="1564470657626" duration="615000" />
+      <workItem from="1564475532313" duration="687000" />
+      <workItem from="1564483373253" duration="827000" />
+      <workItem from="1564485279379" duration="605000" />
+      <workItem from="1564488976961" duration="652000" />
+      <workItem from="1564537340012" duration="4000" />
+      <workItem from="1564538986110" duration="2631000" />
+      <workItem from="1564733038176" duration="1240000" />
+      <workItem from="1564816762662" duration="2838000" />
+      <workItem from="1564994546614" duration="1228000" />
+      <workItem from="1565093877528" duration="8968000" />
+      <workItem from="1565157267242" duration="16466000" />
+      <workItem from="1565179957341" duration="1149000" />
+      <workItem from="1565228229300" duration="3514000" />
+      <workItem from="1566012482186" duration="6563000" />
+      <workItem from="1566032452424" duration="1828000" />
+      <workItem from="1566179378234" duration="2942000" />
+      <workItem from="1566805821556" duration="3749000" />
+      <workItem from="1566875617494" duration="3108000" />
+      <workItem from="1567080379864" duration="1506000" />
+      <workItem from="1568010655741" duration="10150000" />
+      <workItem from="1568106720921" duration="1108000" />
+      <workItem from="1568114675388" duration="476000" />
+      <workItem from="1568115158108" duration="51000" />
+      <workItem from="1568116630732" duration="608000" />
+      <workItem from="1568447152119" duration="2350000" />
+      <workItem from="1568620061716" duration="2540000" />
+      <workItem from="1568803370379" duration="1766000" />
+      <workItem from="1568944165047" duration="606000" />
+      <workItem from="1569045383546" duration="634000" />
+      <workItem from="1569061907443" duration="650000" />
+      <workItem from="1569062580932" duration="604000" />
+      <workItem from="1569201878260" duration="2823000" />
+      <workItem from="1569223422843" duration="15000" />
+      <workItem from="1569747025638" duration="5723000" />
+      <workItem from="1569850577483" duration="2499000" />
+      <workItem from="1569915363430" duration="4171000" />
+      <workItem from="1570082009569" duration="12000" />
+      <workItem from="1570109440128" duration="1246000" />
+      <workItem from="1570255396540" duration="1666000" />
+      <workItem from="1570506374182" duration="681000" />
+      <workItem from="1570523070795" duration="14000" />
+      <workItem from="1570616951417" duration="2330000" />
+      <workItem from="1570785517450" duration="605000" />
+      <workItem from="1570935145370" duration="483000" />
+      <workItem from="1570936329766" duration="636000" />
+      <workItem from="1570938802745" duration="1197000" />
+      <workItem from="1570957677084" duration="1207000" />
+      <workItem from="1571018205311" duration="622000" />
+      <workItem from="1571019708993" duration="279000" />
+      <workItem from="1571020036610" duration="599000" />
+      <workItem from="1571021967457" duration="599000" />
+      <workItem from="1571024197292" duration="598000" />
+      <workItem from="1571031542024" duration="599000" />
+      <workItem from="1571033352808" duration="598000" />
+      <workItem from="1571035847179" duration="764000" />
+      <workItem from="1571037871541" duration="4422000" />
+      <workItem from="1571275815267" duration="1302000" />
+      <workItem from="1571279216261" duration="3000" />
+      <workItem from="1571279234092" duration="622000" />
+      <workItem from="1571301968259" duration="19110000" />
+      <workItem from="1571644131227" duration="603000" />
+      <workItem from="1572663582506" duration="15359000" />
+      <workItem from="1572868303149" duration="16560000" />
+      <workItem from="1573005651449" duration="22386000" />
+      <workItem from="1573463473291" duration="599000" />
+      <workItem from="1573521879224" duration="599000" />
+      <workItem from="1573698268668" duration="10000" />
+      <workItem from="1573698557194" duration="27000" />
+      <workItem from="1573715309889" duration="1430000" />
+      <workItem from="1574061097402" duration="40000" />
+      <workItem from="1574076319157" duration="773000" />
+      <workItem from="1574151719103" duration="15040000" />
+    </task>
+    <task id="LOCAL-00001" summary="bug fix">
+      <created>1540203459255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540203459256</updated>
+    </task>
+    <task id="LOCAL-00002" summary="comiit">
+      <created>1556246299729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556246299729</updated>
+    </task>
+    <task id="LOCAL-00003" summary="bug fix">
+      <created>1565145627964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565145627964</updated>
+    </task>
+    <task id="LOCAL-00004" summary="bug fix">
+      <created>1565234113941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565234113941</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bug fix">
+      <created>1568010674691</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568010674691</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="345345000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48590022" visible="true" weight="0.1641791" />
+      <window_info id="Structure" order="1" sideWeight="0.5140998" side_tool="true" weight="0.16791044" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.30585682" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.30585682" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
+      <window_info anchor="bottom" id="Database Console" order="12" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Flutter Performance" order="13" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Flutter Inspector" order="9" />
+      <window_info anchor="right" id="Flutter Outline" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48590022" visible="true" weight="0.22686568" />
+      <window_info id="Structure" order="1" sideWeight="0.5140998" side_tool="true" weight="0.16791044" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.30585682" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.30585682" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
+      <window_info anchor="bottom" id="Database Console" order="12" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Flutter Performance" order="13" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Flutter Inspector" order="9" />
+      <window_info anchor="right" id="Flutter Outline" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="comiit" />
+    <MESSAGE value="bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bean/Test.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bean/GUI/MyProtocolDecoder.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>bufferIn.readableBytes();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new String(bhead).equals(&quot;|&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>session.parseBody(files);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>session.getParameters();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>session.getUri();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>session.getQueryParameterString()
+;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>session.getParms();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>REQUEST_CHARGE.equals(session.getUri());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Method.POST.equals(method);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>matcher.group()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.group(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.group(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.replaceAll(&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.text</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.last</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/channel/ChannelHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="60" column="31" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/SMessage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/NumOnlyDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/TestRSA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="621" column="19" selection-start-line="621" selection-start-column="19" selection-end-line="621" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/PayType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7125">
+          <caret line="310" column="12" selection-start-line="310" selection-start-column="12" selection-end-line="310" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18700">
+          <caret line="795" column="13" selection-start-line="795" selection-start-column="13" selection-end-line="795" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14900">
+          <caret line="632" column="31" selection-start-line="632" selection-start-column="31" selection-end-line="632" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/TcpParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/html/test.html" />
+    <entry file="file://$PROJECT_DIR$/src/bean/html/abc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5818" selection-end-column="6032" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/TestVaryage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5993" selection-end-column="6056" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="221" column="6" selection-start-line="221" selection-start-column="6" selection-end-line="221" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/HttpServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/我的文档/Documents/Tencent Files/2131664918/FileRecv/log8(1).txt" />
+    <entry file="file://D:/我的文档/Documents/Tencent Files/2131664918/FileRecv/log8.txt" />
+    <entry file="file://$PROJECT_DIR$/src/sqlite/testadd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/BankType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/FuShuException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/TestObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/AddressMatchType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/HttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/websocket/ChatHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1565">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/websocket/HeartBeatHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/websocket/WebSocketInitialzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/websocket/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/FlmSmsHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10000">
+          <caret line="411" column="64" selection-start-line="411" selection-start-column="64" selection-end-line="411" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wamp/www/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/buffer/ByteBuf.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/MyProtocolDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/util/internal/chmv8/ForkJoinWorkerThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/EBank.java" />
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/MyProtocolBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/UrlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/nanohttpd-2.3.1-SNAPSHOT.jar!/fi/iki/elonen/NanoHTTPD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="366" column="16" selection-start-line="366" selection-start-column="16" selection-end-line="366" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/BaseNetTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7675">
+          <caret line="314" selection-start-line="314" selection-end-line="314" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/TcpRespond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ak/test001_log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29993">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/testHtml.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2905" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/testApi.form">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/WebServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="105" column="72" lean-forward="true" selection-start-line="105" selection-start-column="72" selection-end-line="105" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/testApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/DelimiterBasedFrameDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/GUI/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#1437#1958#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>TestNetty:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27586207" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27586207" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TestNetty</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>com.google.code.gson:gson:2.8.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27586207" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

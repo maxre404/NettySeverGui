@@ -49,7 +49,6 @@ public class ServerHandler extends ChannelHandlerAdapter {
 		if (null==gson){
 			gson=new Gson();
 		}
-		//do something msg
 		ByteBuf buf = (ByteBuf) msg;
 		byte[] data = new byte[buf.readableBytes()];
 		buf.readBytes(data);
@@ -57,17 +56,17 @@ public class ServerHandler extends ChannelHandlerAdapter {
 		byte[] utf_8 = BaseNetTool.getUTF_8(data, tt, 1);
 		if ("|".equals(new String(utf_8))) {
 			tt += 1;
-			int length = BaseNetTool.Getint(data, tt);
+			int length = BaseNetTool.getInt(data, tt);
 			tt += 4;
+			System.out.println("查看长度:"+length);
 			byte[] reciveData = BaseNetTool.getbyte(data, tt, length);
 			tt += length;
 			int k = 0;
-			System.out.println(Arrays.toString(reciveData));
 			for (k = 0; k < reciveData.length; k++) {
 				reciveData[k] ^= 255;
 			}
 			int position = 0;
-			int cmd = BaseNetTool.Getint(reciveData, position);
+			int cmd = BaseNetTool.getInt(reciveData, position);
 			System.out.println("收到cmd................." + cmd+".....................length:"+length);
 			position += 4;
 			switch (cmd) {
@@ -78,11 +77,11 @@ public class ServerHandler extends ChannelHandlerAdapter {
 					position+=4;
 					short aShort = BaseNetTool.getShort(reciveData, position);
 					position+=2;
-					int len = BaseNetTool.Getint(reciveData, position);
+					int len = BaseNetTool.getInt(reciveData, position);
 					position+=4;
 					byte[] utf_81 = BaseNetTool.getUTF_8(reciveData, position, len);
 					position+=len;
-					int leng2 = BaseNetTool.Getint(reciveData, position);
+					int leng2 = BaseNetTool.getInt(reciveData, position);
 					position+=4;
 					byte[] utf_82 = BaseNetTool.getUTF_8(reciveData, position, leng2);
 					System.out.println("double:"+aDouble+"flat:"+aFloat+"short:"+aShort+"str1:"+new String(utf_81)+"str2:"+new String(utf_82));
@@ -104,7 +103,9 @@ public class ServerHandler extends ChannelHandlerAdapter {
 
 					break;
 				case 104://广播
-
+					int strLen=BaseNetTool.getInt(reciveData,position);
+					position+=4;
+					byte[] utf_83 = BaseNetTool.getUTF_8(reciveData, position, strLen);
 					break;
 				case 102:
 
@@ -120,12 +121,6 @@ public class ServerHandler extends ChannelHandlerAdapter {
 				SMessage sMessage = map_message.get(key);
 				sMessage.messageReceived(cmd,reciveData);
 			}
-
-//                Intent arg0 = new Intent(String.valueOf(cmd));
-//                arg0.putExtra("packge", com.tencent.charge.BuildConfig.FLAVOR);
-//                arg0.putExtra("data", reciveData);
-//                mContext.sendBroadcast(arg0);
-
 
 		} else {
 			System.out.println("解析错误");

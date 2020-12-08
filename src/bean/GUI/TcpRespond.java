@@ -22,7 +22,7 @@ public class TcpRespond {
     }
 
     public int getInt(){
-        int res = BaseNetTool.Getint(data,pos);
+        int res = BaseNetTool.getInt(data,pos);
         pos+=4;
         return res;
     }

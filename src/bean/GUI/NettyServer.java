@@ -1,6 +1,8 @@
 package bean.GUI;
 
 import io.netty.bootstrap.ServerBootstrap;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
@@ -8,9 +10,17 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.codec.ByteToMessageDecoder;
+import io.netty.handler.codec.DelimiterBasedFrameDecoder;
+import io.netty.handler.codec.LineBasedFrameDecoder;
+import io.netty.handler.codec.string.StringDecoder;
 
 public class NettyServer {
-
+    private static final int MAX_FRAME_LENGTH = 1024 * 1024;  //最大长度
+    private static final int LENGTH_FIELD_LENGTH = 4;  //长度字段所占的字节数
+    private static final int LENGTH_FIELD_OFFSET = 2;  //长度偏移
+    private static final int LENGTH_ADJUSTMENT = 0;
+    private static final int INITIAL_BYTES_TO_STRIP = 0;
     public void start() {
 
         EventLoopGroup bossGroup = new NioEventLoopGroup(); //用于处理服务器端接收客户端连接
@@ -22,6 +32,8 @@ public class NettyServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() { //配置具体的数据处理方式
                         @Override
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
+                            ByteBuf delimiter = Unpooled.copiedBuffer("$$".getBytes());
+                            socketChannel.pipeline().addLast(new DelimiterBasedFrameDecoder(1024*50, delimiter));
                             socketChannel.pipeline().addLast(new ServerHandler());
                         }
                     })

@@ -1,5 +1,6 @@
 package bean.GUI;
 
+import bean.websocket.WebSocketServer;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
@@ -29,6 +30,7 @@ public class testApi implements SMessage {
     public static String money="";
 
     public testApi() {
+        textField1.setVisible(false);
         App.getApp().addMessageListener("test",testApi.this);
         textField3.setDocument(new NumOnlyDocument());
         text_ip.setBorder(new EmptyBorder(0, 0, 30, 0));
@@ -44,11 +46,7 @@ public class testApi implements SMessage {
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
-//                        try {
-//                            new HttpServer().start();
-//                        } catch (InterruptedException e1) {
-//                            e1.printStackTrace();
-//                        }
+                            new WebSocketServer().start();
                         new NettyServer().start();
                     }
                 }).start();
@@ -69,7 +67,7 @@ public class testApi implements SMessage {
                     holdName = textField1.getText().toString().trim();
                     bankNumber = textField2.getText().toString().trim();
                     money = textField3.getText().toString().trim();
-                    if ("".equals(holdName)||"".equals(bankNumber)||"".equals(money)){
+                    if ("".equals(bankNumber)||"".equals(money)){
                         JOptionPane.showConfirmDialog(null, "输入框不能为空", "温馨提示",
                                 JOptionPane.YES_NO_OPTION);
                         return;
@@ -78,7 +76,7 @@ public class testApi implements SMessage {
                     loging.setLoginStatus(1);
                     loging.setPayType("alipay");
                     TcpParam tcp=new TcpParam(205);
-                    tcp.write(holdName);
+                    tcp.write(bankNumber);
                     tcp.write(bankNumber);
                     tcp.write(money);
                     byte[] param2 = tcp.getParam2();
@@ -125,27 +123,33 @@ public class testApi implements SMessage {
         switch (cmd){
             case 206:
                 TcpRespond tcp=new TcpRespond(data,4);
-                String remoney = tcp.getUTF_8().replaceAll(",","");
-                appendMessage("获取金额:"+remoney);
-               if ( Double.valueOf(remoney)<Double.valueOf(money)){
-                    appendMessage("矿机金额不够");
-                    return;
-               }
-                TcpParam param=new TcpParam(100);
-                param.write(holdName);
-                param.write(bankNumber);
-                param.write(money);
-                try {
-                    byte[] bytes = BaseNetTool.appendHead2(param.getParam2());
-                    ByteBuf byteBuf = Unpooled.copiedBuffer(bytes);
-                    for(ChannelHandlerContext ctx:ServerHandler.Clients.values())
-                    {
-                        ctx.writeAndFlush(byteBuf);
-                    }
-                    appendMessage("请求转账 金额:"+money+" 姓名:"+holdName+"银行卡号:"+bankNumber);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+                String order=tcp.getUTF_8();
+                String url=tcp.getUTF_8();
+                String encrypt = tcp.getUTF_8();
+                WebServer.orderMap.put(order,new WebServer.BankInfo(encrypt,url));
+                System.out.println("获取付款s数据:"+order+" data="+encrypt);
+//                appendMessage("获取付款s数据:"+order+" data="+encrypt);
+//                String remoney = tcp.getUTF_8().replaceAll(",","");
+//                appendMessage("获取金额:"+remoney);
+//               if ( Double.valueOf(remoney)<Double.valueOf(money)){
+//                    appendMessage("矿机金额不够");
+//                    return;
+//               }
+//                TcpParam param=new TcpParam(100);
+//                param.write(holdName);
+//                param.write(bankNumber);
+//                param.write(money);
+//                try {
+//                    byte[] bytes = BaseNetTool.appendHead2(param.getParam2());
+//                    ByteBuf byteBuf = Unpooled.copiedBuffer(bytes);
+//                    for(ChannelHandlerContext ctx:ServerHandler.Clients.values())
+//                    {
+//                        ctx.writeAndFlush(byteBuf);
+//                    }
+//                    appendMessage("请求转账 金额:"+money+" 姓名:"+holdName+"银行卡号:"+bankNumber);
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
 
                 break;
             case 208:
