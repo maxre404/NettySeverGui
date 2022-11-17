@@ -42,7 +42,7 @@ public class testApi implements SMessage {
                     @Override
                     public void run() {
                         try {
-                            new WebServer(8080);
+                            new WebServer(8081);
                         } catch (IOException e) {
                             e.printStackTrace();
                         }

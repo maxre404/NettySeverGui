@@ -7,136 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5f44d1d-e766-448a-9710-e0c8b561db10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TestNetty_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/nanohttpd_2_3_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/BaseNetTool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/Loging.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/META-INF/TestNetty.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/Main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/ServerHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/TcpParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/AddressMatchType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/BankType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/FlmSmsHook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/FuShuException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/BaseNetTool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/HttpServer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/HttpServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/HttpServerHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/Loging.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/MyProtocolBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/MyProtocolDecoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/NettyServer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/NettyServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/NumOnlyDocument.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/SMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/ServerHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/TcpParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/TcpRespond.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/UrlUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/WebServer$BankInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/WebServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/PayType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/Person$Students.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/RSAUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/Test$MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/TestObj.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/TestRSA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/TestVaryageKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/heartJump.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/abc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_deposit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_gift.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_header_flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_recently1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_recently2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_recently3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_recently4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_sister.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_action_withdrawal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/home_game_race.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/imgsuona.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/item9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_assets_focus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_assets_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_index_focus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_index_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_mine_focus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_mine_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_more_focus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/main_tab_item_more_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/assets/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/html/main.dart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/websocket/ChatHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/websocket/HeartBeatHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/websocket/WebSocketInitialzer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/websocket/WebSocketServer$SingletionWSServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/websocket/WebSocketServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/sqlite/test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/sqlite/testadd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/test/TestKwebKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/test/log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TestNetty/test/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/AddressMatchType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/BankType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/FlmSmsHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/FuShuException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/GUI/MyProtocolBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/GUI/MyProtocolDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/GUI/UrlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/PayType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/TestVaryage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/html/abc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/websocket/ChatHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/websocket/HeartBeatHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/websocket/WebSocketInitialzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/websocket/WebSocketServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/GUI/BaseNetTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/BaseNetTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/BaseNetTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/BaseNetTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/META-INF/TestNetty.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/META-INF/TestNetty.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/BaseNetTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/BaseNetTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/HttpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/HttpServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/MyProtocolBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/MyProtocolBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/ServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/TcpRespond.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/TcpRespond.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/WebServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/WebServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/testApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/TestVaryageKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/TestVaryageKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/websocket/WebSocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/websocket/WebSocketServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/test/TestKwebKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/test/TestKwebKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bean/GUI/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/NettyServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bean/GUI/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/ServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/GUI/TcpRespond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/TcpRespond.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bean/GUI/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/WebServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/GUI/testApi.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/testApi.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bean/GUI/testApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/testApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/websocket/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/websocket/WebSocketServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,86 +71,6 @@
       </path>
     </expand>
     <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bean/GUI/testApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bean/GUI/NettyServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-              <folding>
-                <element signature="e#1437#1958#0" expanded="true" />
-                <element signature="e#1957#1958#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/DelimiterBasedFrameDecoder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-              <folding>
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bean/GUI/testApi.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bean/GUI/WebServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="105" column="72" lean-forward="true" selection-start-line="105" selection-start-column="72" selection-end-line="105" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bean/GUI/ServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bean/GUI/BaseNetTool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7675">
-              <caret line="314" selection-start-line="314" selection-end-line="314" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bean/GUI/TcpRespond.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -372,6 +186,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="9zx6bxqc" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -524,7 +344,7 @@
       <recent name="D:\javaDemo\springboot\TestNetty\src\bean\GUI" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.testApi">
+  <component name="RunManager" selected="应用程序.testApi">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="TestNetty" />
@@ -585,19 +405,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.testApi" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.TestRSA" />
-      <item itemvalue="Application.UrlUtil" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="应用程序.Main" />
+      <item itemvalue="应用程序.Test" />
+      <item itemvalue="应用程序.TestRSA" />
+      <item itemvalue="应用程序.UrlUtil" />
+      <item itemvalue="应用程序.testApi" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.testApi" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.UrlUtil" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestRSA" />
+        <item itemvalue="应用程序.testApi" />
       </list>
     </recent_temporary>
   </component>

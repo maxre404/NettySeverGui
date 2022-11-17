@@ -35,7 +35,7 @@ public class WebSocketServer {
 
     public void start() {
         this.channelFuture = server.bind(10086);
-        System.err.println("【Netty Server 启动成功】");
+        System.err.println("【Netty websocket Server 启动成功】port 10086");
 
     }
 }

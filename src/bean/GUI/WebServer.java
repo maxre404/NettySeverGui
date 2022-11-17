@@ -39,7 +39,7 @@ public class WebServer extends NanoHTTPD {
 	public WebServer( int serverport) throws IOException {
 		super(serverport);
 		start(NanoHTTPD.SOCKET_READ_TIMEOUT, false);
-		System.out.println("start port:"+serverport);
+		System.out.println("http server start port:"+serverport);
 	}
 	public static class BankInfo{
 

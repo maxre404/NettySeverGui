@@ -52,7 +52,8 @@ public class NettyServer {
                     .option(ChannelOption.SO_RCVBUF, 32 * 1024) //设置接受数据缓冲大小
                     .childOption(ChannelOption.SO_KEEPALIVE, true); //保持连接
 
-            ChannelFuture future = bootstrap.bind(11199).sync();
+            ChannelFuture future = bootstrap.bind(8080).sync();
+            System.err.println("【Netty tcp Server 启动成功】port 8080");
             future.channel().closeFuture().sync();
 
         } catch (InterruptedException e) {
