@@ -16,7 +16,6 @@ public class ServerHandler extends ChannelHandlerAdapter {
 	@Override
 	public void channelActive(ChannelHandlerContext ctx) throws Exception {
 		super.channelActive(ctx);
-		System.out.println("有连接活跃");
 		String uuid = ctx.channel().id().asLongText();
 		Clients.put(uuid,ctx);
 		Map<String, SMessage> map_message = App.getApp().getMap_message();

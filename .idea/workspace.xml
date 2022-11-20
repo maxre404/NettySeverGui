@@ -6,9 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5f44d1d-e766-448a-9710-e0c8b561db10" name="Default Changelist" comment="部分端口修改">
+    <list default="true" id="f5f44d1d-e766-448a-9710-e0c8b561db10" name="Default Changelist" comment="添加忽略文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/GUI/testApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/testApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNetty/bean/GUI/ServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/GUI/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/GUI/ServerHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,24 +303,24 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="bean.websocket" />
-      <recent name="bean.GUI" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="D:\javaDemo\NettySeverGui" />
       <recent name="D:\javaDemo\NettySeverGui\src" />
       <recent name="D:\javaDemo\NettySeverGui\src\bean\html" />
       <recent name="D:\javaDemo\NettySeverGui\src\bean\GUI" />
-      <recent name="D:\javaDemo\NettySeverGui\lib" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="bean.GUI" />
-      <recent name="bean" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\javaDemo\NettySeverGui\src\bean\html" />
       <recent name="D:\javaDemo\springboot\TestNetty\src\bean\GUI" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bean.websocket" />
+      <recent name="bean.GUI" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bean.GUI" />
+      <recent name="bean" />
     </key>
   </component>
   <component name="RunManager" selected="应用程序.testApi">
